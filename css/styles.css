@@ -1,5 +1,6 @@
 h1{
   font-size: 4em;
+  text-align: center;
 }
 
 h2{
@@ -8,15 +9,27 @@ h2{
   font-size: 5em;
 }
 
+p{
+  text-align: center;
+  font-size: 2em;
+}
+
 ul {
   padding: 0;
+  text-align: center;
+  font-size: 1.5em;
 }
 
 li {
   display: inline;
   padding: .2em 1em;
+
   }
 
-.content{
+.content {
   margin-top: 3em;
+}
+
+.answer {
+  margin: 4em;
 }

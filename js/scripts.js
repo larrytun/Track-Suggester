@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $("#trackapp").submit(function(event) {
+  $("#trackApp").submit(function(event) {
    var q1Input = parseInt($("select#question1").val());
    var q2Input = parseInt($("select#question2").val());
    var q3Input = parseInt($("select#question3").val());
