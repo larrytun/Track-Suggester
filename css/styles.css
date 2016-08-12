@@ -1,12 +1,19 @@
 h1{
-  font-size: 4em;
   text-align: center;
+  text-shadow: 2px 2px #2B5677;
 }
 
 h2{
   display: none;
   text-align: center;
   font-size: 5em;
+}
+
+h3{
+  text-align: center;
+  font-size: 2.2em;
+  text-shadow: 2px 2px #2B5677;
+  margin-bottom: 18px;
 }
 
 p{
@@ -18,6 +25,7 @@ ul {
   padding: 0;
   text-align: center;
   font-size: 1.5em;
+  text-shadow: 1px 1px #2B5677;
 }
 
 li {
@@ -32,4 +40,10 @@ li {
 
 .answer {
   margin: 4em;
+  border:
+}
+
+.jumbotron {
+  background-image: url("https://i.reddituploads.com/d9a27cea92234a14936fb9ea9626be01?fit=max&h=1536&w=1536&s=efea3da7d80e001b2455ed4a9090b9ea");
+  color: #E4F8FC;
 }
