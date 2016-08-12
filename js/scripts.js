@@ -13,6 +13,7 @@ $(document).ready(function() {
 
    if(total < 9) {
      $("#css").show();
+     $("#namearea").show();
      $("#net").hide();
      $("#android").hide();
    }

@@ -36,7 +36,11 @@ li {
   padding: .2em 1em;
   }
 
-#person {
+#namearea {
+  display: none;
+}
+
+.person {
   color: #563D7C;
 }
 
