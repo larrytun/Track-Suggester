@@ -6,7 +6,8 @@ $(document).ready(function() {
    var q4Input = parseInt($("select#question4").val());
    var q5Input = parseInt($("select#question5").val());
    event.preventDefault()
-
+   $("#trackApp").toggle();
+   
    var total = (q1Input + q2Input + q3Input + q4Input + q5Input);
 
    if(total < 9) {
@@ -24,6 +25,5 @@ $(document).ready(function() {
      $("#css").hide();
      $("#net").hide();
    }
-
   });
 });
