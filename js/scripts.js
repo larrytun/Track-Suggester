@@ -6,7 +6,7 @@ $(document).ready(function() {
     var q4Input = parseInt($("select#question4").val());
     var q5Input = parseInt($("select#question5").val());
     event.preventDefault();
-    $("#trackApp").toggle();
+    $("#trackApp").delay(90).fadeOut(400);
     $("#person").text($("#name").val());
 
     var total = (q1Input + q2Input + q3Input + q4Input + q5Input);
