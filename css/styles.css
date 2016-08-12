@@ -38,6 +38,10 @@ li {
 
 #namearea {
   display: none;
+  font-size: 3em;
+  text-decoration: underline;
+  text-align: center;
+  color: #00B3B4;
 }
 
 .person {

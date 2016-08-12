@@ -19,11 +19,13 @@ $(document).ready(function() {
    }
    else if(total >= 9 && total <= 12) {
      $("#net").show();
+     $("#namearea").show();
      $("#css").hide();
      $("#android").hide();
    }
    else if(total >= 13) {
      $("#android").show();
+     $("#namearea").show();
      $("#css").hide();
      $("#net").hide();
    }
