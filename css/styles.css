@@ -48,16 +48,13 @@ li {
   color: #00B3B4;
 }
 
-.person {
-  color: #563D7C;
-}
-
 .form-group {
   margin: 3em;
 }
 
 .paragraphs {
   font-size: .4em;
+  color: #00B3B4;
 }
 
 .content {
