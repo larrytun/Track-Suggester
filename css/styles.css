@@ -38,7 +38,7 @@ ul {
 li {
   display: inline;
   padding: .2em 1em;
-  }
+}
 
 #namearea {
   display: none;
@@ -72,7 +72,7 @@ li {
   margin: 3em;
 }
 
-.questionwords{
+.questionwords {
   font-size: 1em;
   font-weight: bolder;
   text-shadow: 1px 1px #2B5677;
