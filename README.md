@@ -26,7 +26,7 @@ _If you run into problems contact Larry Tunseth at larrydeantun@gmail.com_
 
 ## Technologies Used
 
-_HTML, CSS, Bootstrap, jquery, javascript, GitHub, Git_
+_HTML, CSS, Bootstrap, jQuery, JavaScript, GitHub, Git_
 
 ### License
 
