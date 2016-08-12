@@ -5,9 +5,10 @@ $(document).ready(function() {
    var q3Input = parseInt($("select#question3").val());
    var q4Input = parseInt($("select#question4").val());
    var q5Input = parseInt($("select#question5").val());
-   event.preventDefault()
+   event.preventDefault();
    $("#trackApp").toggle();
-   
+   $("#person").text($("#name").val());
+
    var total = (q1Input + q2Input + q3Input + q4Input + q5Input);
 
    if(total < 9) {

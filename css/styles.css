@@ -36,6 +36,14 @@ li {
   padding: .2em 1em;
   }
 
+#person {
+  color: #563D7C;
+}
+
+.form-group {
+  margin: 3em;
+}
+
 .paragraphs {
   font-size: .4em;
 }
@@ -52,7 +60,7 @@ li {
   margin: 3em;
 }
 
-.words{
+.questionwords{
   font-size: 1em;
   font-weight: bolder;
   text-shadow: 1px 1px #2B5677;
