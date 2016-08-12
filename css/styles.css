@@ -18,7 +18,6 @@ h3{
 
 p{
   text-align: center;
-  font-size: 2em;
 }
 
 ul {
@@ -31,16 +30,24 @@ ul {
 li {
   display: inline;
   padding: .2em 1em;
-
   }
 
 .content {
   margin-top: 3em;
 }
 
+.btn {
+  margin-top: 2em;
+}
+
 .answer {
-  margin: 4em;
-  border:
+  margin: 3em;
+}
+
+.words{
+  font-size: 1em;
+  font-weight: bolder;
+  text-shadow: 1px 1px #2B5677;
 }
 
 .jumbotron {
