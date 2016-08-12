@@ -1,10 +1,10 @@
 $(document).ready(function() {
-  $("trackapp").submit(function(event) {
+  $("#trackapp").submit(function(event) {
    var q1Input = parseInt($("select#question1").val());
-   var q2Input = parseInt($("select#q2").val());
-   var q3Input = parseInt($("select#q3").val());
-   var q4Input = parseInt($("select#q4").val());
-   var q5Input = parseInt($("select#q5").val());
+   var q2Input = parseInt($("select#question2").val());
+   var q3Input = parseInt($("select#question3").val());
+   var q4Input = parseInt($("select#question4").val());
+   var q5Input = parseInt($("select#question5").val());
    event.preventDefault()
 
    var total = (q1Input + q2Input + q3Input + q4Input + q5Input);
@@ -12,17 +12,18 @@ $(document).ready(function() {
    if(total < 9) {
      $("#css").show();
      $("#net").hide();
-     $("android").hide();
+     $("#android").hide();
    }
    else if(total >= 9 && total <= 12) {
      $("#net").show();
      $("#css").hide();
-     $("android").hide();
+     $("#android").hide();
    }
    else if(total >= 13) {
      $("#android").show();
      $("#css").hide();
-     $("net").hide();
+     $("#net").hide();
    }
+
   });
 });

@@ -1,7 +1,11 @@
+h1{
+  font-size: 4em;
+}
+
 h2{
   display: none;
   text-align: center;
-  font-size: 10em;
+  font-size: 5em;
 }
 
 ul {
