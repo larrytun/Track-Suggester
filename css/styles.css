@@ -1,3 +1,9 @@
+h2{
+  display: none;
+  text-align: center;
+  font-size: 10em;
+}
+
 ul {
   padding: 0;
 }
